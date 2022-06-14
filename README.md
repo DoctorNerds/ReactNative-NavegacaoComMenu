@@ -26,10 +26,15 @@ O Expo é um *framework* e uma plataforma para aplicações React universais. É
 
 A diferença entre React Native e Expo (utilizado neste projeto), já que o segundo não necessita da instalação do ambiente Java com Android Studio ou Xcode, pois ele é enviado diretamente ao aplicativo do Expo instalado no celular que já inclui os códigos nativos necessários. A desvantagem da utilização do Expo é que existem funcionalidades no React Native que ainda não são suportadas no Expo, além dos aplicativos ocuparem pouco mais de espaço na memória do celular do que aplicações nativas com o React Native. Porém, como a configuração e desenvolvimento com o Expo é mais simples, é uma ótima opção para quem está começando a aprender essa tecnologia, assim como eu, além de poder ser um melhor custo benefício em algumas aplicações também.
 
+Partindo para o desenvolvimento, instalei e configurei o ambiente de programação para criar a aplicação em **React Native**. O software utilizado para programar foi o **Visual Code** e utilizei o **Android Studio** como emulador durante o desenvolvimento, assim como aprendi a utilizar o próprio aplicativo para mobile **Expo Go** como emulador também.  
+
+Segui todos os passos explicados durante as aulas do curso **React Native: Navegação com menu e suporte às telas** da [Alura](https://www.alura.com.br/) e desenvolvi esta aplicação da forma como foi instruído pela @nataliakt. Após a conclusão do curso apliquei o mesmo programa, fazendo as alterações necessárias e aplicando o aprendizado para o meu objetivo que é criar um aplicativo para os serviços da minha edtech, a Escola Matriz.
 
 ### Tags e comandos React Native
 
 ### Outras coisas importantes
+
+- **app.json**:
 
 ### Conceitos aprendidos
 
