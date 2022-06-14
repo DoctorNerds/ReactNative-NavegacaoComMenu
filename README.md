@@ -32,7 +32,7 @@ Segui todos os passos explicados durante as aulas do curso **React Native: Naveg
 
 ### Tags e comandos React Native
 
-- `<></>`: o fragmento é como se fosse uma tag, só que ele não tem nada dentro e não precisa ser importado. Ele permite agrupar componentes no código.
+- `<></>`: o fragmento é como se fosse uma tag, só que ele não tem nada dentro e não precisa ser importado. Ele permite agrupar componentes no código sem causar nenhum efeito estrutual.
 - `Biblioteca para moedas`: já temos no java uma biblioteca para moedas, basta ir no terminal, na pasta do projeto e instalar:
    - `npm install intl`
    - No `App.js`:
@@ -50,23 +50,30 @@ Segui todos os passos explicados durante as aulas do curso **React Native: Naveg
          } 
    </Text>
    ```
+- `<TouchacleOpacity>`:  faz com que uma <View> responda a toques do usuário na tela. Ao ser clicado, a opacidade da View é diminuída de maneira gradual, gerando um efeito visual para o usuário da aplicação.
+- `<KeyboardAvoidingView>`: É um componente para resolver o problema comum de visualizações que precisam sair do caminho do teclado virtual. Ele pode ajustar automaticamente sua altura, posição ou preenchimento inferior com base na altura do teclado.
+- `reduce()`: é um método que passa por todos os elementos de uma lista, executa uma regra definida pelo programador para cada um desses elementos e após completar o processo retorna alguma coisa, d qualquer tipo, como um number, uma string, um objeto, um novo array ou por exemplo a soma de todos os elementos desse array.
    
-    
-   
-
 ### Outras coisas importantes
 
-- **app.json**: é um arquivo exclusivo do Expo e não vai existir no React Native normal
 - **Alterar nome, ícone e splash screen da aplicação**: para alterarmos o nome da exibição da aplicação, a splash screen e o ícone da aplicação, precisamos:
    - Alterar o nome, o slug e o backgroundColor da splash dentro do `app.json` e substituir as imagens `icon.png` e `splash.png` dentro da pasta *assets*.
    - Reiniciar a aplicação e ver as alterações.
 - **Para usar as tags**: precisamos importar: `React from 'react';`
 - **Estilo como uma função**: Algumas vezes, quando precisamos estilizar os nossos componentes, o estilo pode ser uma função, onde vamos ter que definir seus parâmetros de entrada e importá-lo no arquivo que iremos utilizá-lo.
-- 
-
-
+- **Componente em formato de classe**: era a forma mais comum de criar componentes do React-Native até pouco tempo e ainda funciona. Basicamente consiste em criar uma classe que estende um componente, com métodos dentro dela para implementar os ciclos de vida do React e para renderizar os componentes na tela.
+- **Componente em formato de função**: a forma de função era menos utilizada pois as funcionalidades de ciclo e estado não podiam ser utilizadas, então era apenas para criar componentes simples que não precisavam delas. Mas com o nascimento dos `hooks` é possível realizar essas tarefas com o `function components` também.
+- **Componentes repetidos**: toda vez que vemos componentes repetidos é de se avaliar a criação de um arquivo que contenha essa estrutura, exportá-la e depois usá-la nos arquivos.
+ 
 ### Conceitos aprendidos
-
+   
+- **app.json**: é um arquivo exclusivo do Expo e não vai existir no React Native normal
+- **Reactron**: os motivos porque devemos utilizar essa ferramenta
+   - Podemos analisar mais facilmente os logs com objetos grandes
+   - Podemos vizualizar os logs da nossa aplicação de forma cronológica
+- **API:** Interface de Programação e Aplicação, é um conjunto de padrões que fazem parte de uma interface e permitem a criação de plataformas de maneira mais simples e pratica para desenvolvedores. A partir dela criamos softwares, apps, dentre outras aplicações. Apps para celulares são criados a partir de padrões definidos e disponibilizados pelas APIs de cada sistema operacional, ou seja, ela é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos. 
+-  **Arquivos.src:** Código fonte de um programa escrito em uma das muitas linguagens de programação. Pode ser editado com software de programação ou usando um editor de texto básico, além de poder ser compilado em um programa executável usando um compilador de software.
+-  **ADB:** Android Debug Bridge, é uma ferramenta de linha de comando versátil que permite a comunicação com um dispositivo. Este comando facilita uma variedade de ações do dispositivo, como instalar e depurar apps, dentre outros.
 
 ### ▶️ Rodando o Projeto
 
