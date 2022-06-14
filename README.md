@@ -32,9 +32,38 @@ Segui todos os passos explicados durante as aulas do curso **React Native: Naveg
 
 ### Tags e comandos React Native
 
+- `<></>`: o fragmento é como se fosse uma tag, só que ele não tem nada dentro e não precisa ser importado. Ele permite agrupar componentes no código.
+- `Biblioteca para moedas`: já temos no java uma biblioteca para moedas, basta ir no terminal, na pasta do projeto e instalar:
+   - `npm install intl`
+   - No `App.js`:
+    ```
+      import 'intl';
+      import 'intl/locale-data/jsonp/pt-BR';
+    ````
+   - Agora quando for utilizar não precisa importar, já que ela é uma biblioteca do Java Script. Veja um exemplo:
+   ```
+   <Text>{
+      intl.NumberFormat('pt-BR',{
+        style: 'currency',
+        currency: 'BRL'
+      }).format(variavel)
+         } 
+   </Text>
+   ```
+   
+    
+   
+
 ### Outras coisas importantes
 
-- **app.json**:
+- **app.json**: é um arquivo exclusivo do Expo e não vai existir no React Native normal
+- **Alterar nome, ícone e splash screen da aplicação**: para alterarmos o nome da exibição da aplicação, a splash screen e o ícone da aplicação, precisamos:
+   - Alterar o nome, o slug e o backgroundColor da splash dentro do `app.json` e substituir as imagens `icon.png` e `splash.png` dentro da pasta *assets*.
+   - Reiniciar a aplicação e ver as alterações.
+- **Para usar as tags**: precisamos importar: `React from 'react';`
+- **Estilo como uma função**: Algumas vezes, quando precisamos estilizar os nossos componentes, o estilo pode ser uma função, onde vamos ter que definir seus parâmetros de entrada e importá-lo no arquivo que iremos utilizá-lo.
+- 
+
 
 ### Conceitos aprendidos
 
