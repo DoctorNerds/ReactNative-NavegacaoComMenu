@@ -6,7 +6,7 @@ export default (pequeno, invertido) => StyleSheet.create({
     width: 140,
     paddingVertical: pequeno ? 3 : 9,
     paddingHorizontal: 20,
-    backgroundColor: invertido ? cores.laranja : cores.roxo,
+    backgroundColor: invertido ? cores.verdeMatriz : cores.pretoMatriz,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -19,6 +19,7 @@ export default (pequeno, invertido) => StyleSheet.create({
   valor: {
     fontWeight: 'bold',
     textAlign: 'center',
-    color: invertido ? cores.roxo : cores.laranja,
+    fontSize: 16,
+    color: invertido ? cores.pretoMatriz : cores.verdeMatriz,
   }
 });

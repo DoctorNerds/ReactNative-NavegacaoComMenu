@@ -6,9 +6,9 @@ export default StyleSheet.create({
     padding: 24
   },
   nome: {
-    color: cores.laranja,
+    color: cores.verdeMatriz,
     fontWeight: 'bold',
-    fontSize: 16,
+    fontSize: 28,
   },
   calculo: {
     color: cores.escuro,
@@ -16,8 +16,8 @@ export default StyleSheet.create({
     marginVertical: 8,
   },
   preco: {
-    color: cores.roxo,
-    fontSize: 16,
+    color: cores.pretoMatriz,
+    fontSize: 20,
     fontWeight: 'bold',
     textAlign: 'right',
   },
@@ -42,10 +42,12 @@ export default StyleSheet.create({
   },
   descricao: {
     color: cores.escuro,
-    fontSize: 16,
+    fontSize: 18,
     marginRight: 8,
+    fontSize: 18,
   },
   quantidade: {
     width: 42,
+    fontSize: 16,
   }
 });

@@ -15,6 +15,9 @@ export default function StatusCarrinho({ total }) {
             style: 'currency', currency: 'BRL'
           }).format(total)
         }
+        {
+          "/ano"
+        }
       </Text>
     </View>
     <View style={estilos.botao}>

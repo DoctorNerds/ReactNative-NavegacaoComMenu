@@ -7,9 +7,13 @@ export default StyleSheet.create({
 });
 
 export const cores = {
-  roxo: '#A050BE',
-  laranja: '#FABE50',
+  verdeMatriz: '#23B450',
+  azulMatriz: '#00AEFF',
+  vermelhoMatriz: '#F2380A',
+  pretoMatriz: '#000000',
   escuro: '#555555',
   claro: '#fff',
   cinza: '#C7C7C7',
+  //roxo: '#A050BE',
+  //laranja: '#FABE50',
 };

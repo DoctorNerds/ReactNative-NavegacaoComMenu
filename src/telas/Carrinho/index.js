@@ -8,23 +8,23 @@ import Item from './Item';
 const servicos = [
   {
     id: 1,
-    nome: "Banho",
-    preco: 79.9,
-    descricao: "NÃO DE BANHO NO SEU GATO! Mas se precisar nós damos.",
+    nome: "MatrizKIDS",
+    preco: 349.90,
+    descricao: "KIDS a partir dos 6 anos de idade vão aprender a criar jogos programando com Scratch.",
     quantidade: 1
   },
   {
     id: 2,
-    nome: "Vacina V4",
-    preco: 89.9,
-    descricao: "Uma dose da vacina V4. Seu gato precisa de duas.",
+    nome: "Matriz4YOU",
+    preco: 129.90,
+    descricao: "Entusiastas a partir de 50 anos de idade vão aprender a se conectar com a tecnologia, internet e serviços on-line.",
     quantidade: 2
   },
   {
     id: 3,
-    nome: "Vacina Antirrábica",
+    nome: "MatrizCast Club",
     preco: 99.9,
-    descricao: "Uma dose da vacina antirrábica. Seu gato precisa de uma por ano.",
+    descricao: "Membros do clube do maior podcast de educação do Brasil, terão direito a um conteúdo exclusivo com nossos convidados toda semana e muito mais.",
     quantidade: 1
   }
 ];

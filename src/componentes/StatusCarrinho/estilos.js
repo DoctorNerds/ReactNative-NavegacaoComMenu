@@ -3,7 +3,7 @@ import { cores } from '../../estilos';
 
 export default StyleSheet.create({
   conteudo: {
-    backgroundColor: cores.roxo,
+    backgroundColor: cores.pretoMatriz,
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -14,15 +14,15 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   descricao: {
-    fontSize: 16,
+    fontSize: 22,
     color: cores.claro,
     fontWeight: 'bold',
   },
   valor: {
-    fontSize: 18,
+    fontSize: 22,
     fontWeight: 'bold',
     marginVertical: 6,
-    color: cores.laranja,
+    color: cores.verdeMatriz,
   },
   botao: {
     flexGrow: 1,
