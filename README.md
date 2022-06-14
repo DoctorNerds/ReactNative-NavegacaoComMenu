@@ -7,11 +7,11 @@ Essa é a aplicação do Fábio Mori após concluir o projeto do curso **Navega�
 
 Neste projeto foi aplicado todo aprendizado para fazer uma tela de serviços e carrinho de compra para o aplicativo da Escola Matriz, uma edtech que ensina e fala sobre tecnologia para crianças e jovens.
 
-![AppMatriz1](https://user-images.githubusercontent.com/101336111/173579403-944d8383-d6a8-4d19-bbdd-8bd6757f4147.png)
-![AppMatriz2](https://user-images.githubusercontent.com/101336111/173579418-196cf6f0-2194-4803-b14a-14cb4ab66b85.png)
-![AppMatriz3](https://user-images.githubusercontent.com/101336111/173579430-ecfb5d16-06f3-47a9-87b1-4c757f912801.png)
-![AppMatriz4](https://user-images.githubusercontent.com/101336111/173579442-0e625385-798c-4b04-8c21-8b9a033c0bb7.png)
-![AppMatriz5](https://user-images.githubusercontent.com/101336111/173579459-0328c70a-3ee2-42cd-bca9-9944f9c4be53.png)
+<img src=https://user-images.githubusercontent.com/101336111/173579403-944d8383-d6a8-4d19-bbdd-8bd6757f4147.png width="300" height="600">
+<img src=https://user-images.githubusercontent.com/101336111/173579418-196cf6f0-2194-4803-b14a-14cb4ab66b85.png width="300" height="600">
+<img src=https://user-images.githubusercontent.com/101336111/173579430-ecfb5d16-06f3-47a9-87b1-4c757f912801.png width="300" height="600">
+<img src=https://user-images.githubusercontent.com/101336111/173579442-0e625385-798c-4b04-8c21-8b9a033c0bb7.png width="300" height="600">
+<img src=https://user-images.githubusercontent.com/101336111/173579459-0328c70a-3ee2-42cd-bca9-9944f9c4be53.png width="300" height="600">
 
 ## 🧑‍💻 Técnicas e Tecnologias
 
